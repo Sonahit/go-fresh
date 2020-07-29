@@ -1,6 +1,6 @@
 run:
-	go run main.go
+	go run src/app.go
 
 compile:
 	mkdir -p build
-	go build -o build/main main.go
+	go compile src/app.go
